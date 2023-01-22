@@ -2,6 +2,7 @@ import React from 'react'
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { BsTwitter } from 'react-icons/bs';
 
 const SocialLinks = () => {
 
@@ -13,7 +14,7 @@ const SocialLinks = () => {
             Linkedin <FaLinkedin size={30}/>
         </>
       ),
-      href: 'https://linkedin.com',
+      href: 'https://www.linkedin.com/in/drsolomonomoruyi/',
       style: 'rounded-tr-md'
     },{
       id: 2,
@@ -22,9 +23,17 @@ const SocialLinks = () => {
             Github <FaGithub size={30}/>
         </>
       ),
-      href: 'https://github.com',
+      href: 'https://github.com/thatBlackBiniMan',
       },{
-      id: 3,
+        id: 3,
+        child: (
+          <>
+              Twitter <BsTwitter size={30}/>
+          </>
+        ),
+        href: 'https://twitter.com/DrOmoruyi',
+        },{
+      id: 4,
       child: (
         <>
             Mail <HiOutlineMail size={30}/>
@@ -32,7 +41,7 @@ const SocialLinks = () => {
       ),
       href: 'mailto:omoruyiosarugue20@gmail.com',
          },{
-      id: 4,
+      id: 5,
       child: (
         <>
             Resume <BsFillPersonLinesFill size={30}/>
